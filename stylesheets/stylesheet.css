@@ -56,9 +56,6 @@ a {
   .btn {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem; } }
-  .btnh {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem; } }
 @media screen and (max-width: 42em) {
   .btn {
     display: block;
