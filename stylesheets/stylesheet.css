@@ -38,7 +38,7 @@ a {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(155, 155, 155, 0.7);
-  background-color: rgba(155, 155, 155, 0.2);
+  background-color: rgba(155, 155, 155, 0.35);
   border-color: rgba(155, 155, 155, 0.5);
   border-style: solid;
   border-width: 1px;
@@ -46,6 +46,12 @@ a {
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btnh + .btnh {
     margin-left: 1rem; }
+    
+.btn:hover {
+  color: rgba(155, 155, 155, 0.8);
+  text-decoration: none;
+  background-color: rgba(155, 155, 155, 0.2);
+  border-color: rgba(155, 155, 155, 0.3); }
 
 @media screen and (min-width: 64em) {
   .btn {
