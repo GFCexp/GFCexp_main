@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box; }
 
+stext {
+    border: 1px solid gray;
+    padding: 4px;
+    font-size: 10pt }
+
 body {
   padding: 0;
   margin: 0;
