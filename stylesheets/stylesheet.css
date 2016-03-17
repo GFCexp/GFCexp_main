@@ -38,8 +38,14 @@ a {
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn + .btn {
+  .btnh + .btnh {
     margin-left: 1rem; }
+
+.btnh:hover {
+  color: rgba(155, 155, 155, 0.8);
+  text-decoration: none;
+  background-color: rgba(155, 155, 155, 0.2);
+  border-color: rgba(155, 155, 155, 0.3); }
 
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -50,9 +56,14 @@ a {
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
+  .btnh {
+    padding: 0.75rem 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem; } }
+  .btnh {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem; } }
 
@@ -63,6 +74,14 @@ a {
     padding: 0.75rem;
     font-size: 0.9rem; }
     .btn + .btn {
+      margin-top: 1rem;
+      margin-left: 0; } }
+  .btnh {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem; }
+    .btnh + .btnh {
       margin-top: 1rem;
       margin-left: 0; } }
 
