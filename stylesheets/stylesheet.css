@@ -47,7 +47,7 @@ a {
   .btnh + .btnh {
     margin-left: 1rem; }
     
-.btn:hover {
+.btnh:hover {
   color: rgba(155, 155, 155, 0.8);
   text-decoration: none;
   background-color: rgba(155, 155, 155, 0.2);
