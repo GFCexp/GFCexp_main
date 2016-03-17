@@ -262,3 +262,12 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.btnh + .btn {
+    margin-left: 1rem; }
+    
+.btnh + .btnh {
+    margin-left: 1rem; }
+    
+.btn + .btnh {
+    margin-left: 1rem; }
